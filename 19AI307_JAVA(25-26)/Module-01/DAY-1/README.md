@@ -27,6 +27,11 @@ End the program.
 
 ## PROGRAM:
  ```
+program:
+Developed by: Balaji Arambakam
+RegisterNumber:  212224230021
+
+
 import java.util.Scanner;
 public class Main
 {
@@ -56,3 +61,4 @@ public class Main
 
 ## RESULT:
 Thus, the Java program to read a name from the user and display a greeting message was successfully executed.
+
