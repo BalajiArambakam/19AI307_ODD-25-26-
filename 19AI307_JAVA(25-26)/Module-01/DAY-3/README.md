@@ -57,27 +57,6 @@ public class kim
 
 ## SOURCE CODE:
 
-import java.util.Scanner;
-public class kim
-{
-    public static void main(String[] args)
-    {
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        int digit;
-        int reversednum = 0;
-
-        while(num != 0)
-        {
-            digit = num % 10;
-            reversednum = reversednum * 10 + digit;
-            num = num / 10;
-        }
-
-        System.out.printf("Reversed number: %d", reversednum);
-        sc.close();
-    }
-}
 
 
 
@@ -89,4 +68,5 @@ public class kim
 
 ## RESULT:
 Thus, the Java program to reverse a number using a while loop was executed successfully.
+
 
