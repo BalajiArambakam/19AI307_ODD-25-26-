@@ -97,7 +97,7 @@ public class VehicleTest {
 
 
 ## OUTPUT:
-![alt text](m3d2.png.jpeg)
+![alt text](image.png)
 
 
 ## RESULT:
