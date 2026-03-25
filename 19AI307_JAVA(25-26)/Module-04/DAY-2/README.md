@@ -85,50 +85,6 @@ public class prog
 ```
 
 ## SOURCE CODE:
-import java.util.*;
-
-class MasterPowerSwitch 
-{
-    private static MasterPowerSwitch instance = null;
-    private int accessCount = 0;
-
-    private MasterPowerSwitch() {}
-
-    public static MasterPowerSwitch getInstance()
-    {
-        if (instance == null)
-        {
-            instance = new MasterPowerSwitch();
-        }
-        return instance;
-    }
-
-    public int logAccess()
-    {
-        accessCount++;
-        return accessCount;
-    }
-}
-
-public class prog 
-{
-    public static void main(String[] args) 
-    {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        sc.nextLine();
-
-        for (int i = 0; i < n; i++) 
-        {
-            String player = sc.nextLine();
-            MasterPowerSwitch power = MasterPowerSwitch.getInstance();
-            int count = power.logAccess();
-            System.out.println(player + " accessed Master Power Switch. Total accesses so far: " + count);
-        }
-    }
-}
-
-
 
 
 
